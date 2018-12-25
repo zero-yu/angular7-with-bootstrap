@@ -1,6 +1,6 @@
 # Summary
 
-已经同步到P67
+已经同步到P67，亲测完美运行.
 
 我的运行环境是win10 + vscode，并不是视频中的mac + webstorm
 
@@ -8,7 +8,7 @@ B站连接 https://www.bilibili.com/video/av26814911 和老师写的代码基本
 
 视频中的node服务器也已经上传到github 传送门 https://github.com/zero-yu/webserver
 
-程序具体使用说面，详见下面英文文档.
+程序具体如何安装使用，详见下面英文文档.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
 
