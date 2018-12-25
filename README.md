@@ -1,6 +1,6 @@
 # Summary
 
-已经同步到P67，亲测完美运行.
+已经同步到P67，程序完全ojbk.
 
 我的运行环境是win10 + vscode，并不是视频中的mac + webstorm
 
