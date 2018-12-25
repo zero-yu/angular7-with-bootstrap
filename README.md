@@ -2,6 +2,8 @@
 
 已经同步到P67
 
+我的运行环境是win10 + vscode，并不是视频中的mac + webstorm
+
 B站连接 https://www.bilibili.com/video/av26814911 和老师写的代码基本一致，只不过我用的是angular7 老师用的是 4 语法点可能有点不同.
 
 视频中的node服务器也已经上传到github 传送门 https://github.com/zero-yu/webserver
