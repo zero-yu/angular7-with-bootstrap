@@ -1,5 +1,7 @@
-# 说明
+# Summary
 B站连接 https://www.bilibili.com/video/av26814911 和老师写的代码基本一致，只不过我用的是angular7 老师用的是 4 语法点可能有点不同.
+
+视频中的node服务器也已经上传到github 传送门 https://github.com/zero-yu/webserver
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
 
