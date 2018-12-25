@@ -1,4 +1,5 @@
-# DemoApp
+# 说明
+B站连接 https://www.bilibili.com/video/av26814911 和老师写的代码基本一致，只不过我用的是angular7 老师用的是 4 语法点可能有点不同.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
 
