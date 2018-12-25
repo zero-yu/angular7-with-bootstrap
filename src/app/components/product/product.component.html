@@ -1,0 +1,24 @@
+<form>
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="form-group">
+        <input #KeyWord type="text" class="form-control" placeholder="请输入商品名称" [formControl]="titleFilter">
+      </div>
+
+    </div>
+  </div>
+  <div class="col-md-4 col-sm-4 col-lg-4" *ngFor="let item of listProduct | async">
+    <!--<div class="col-md-4 col-sm-4 col-lg-4" *ngFor="let item of listProduct | filter:'title':keyWord:keyWord">-->
+    <div class="thumbnail">
+      <img src="http://placehold.it/320x150" alt="">
+      <div class="caption">
+        <h4 class="pull-right">{{item.price}}元</h4>
+        <h4><a routerLink='/product/{{item.id}}'>{{item.title}}</a></h4>
+        <p>{{item.desc}}</p>
+      </div>
+      <div>
+        <app-start startNumber={{item.rating}}></app-start>
+      </div>
+    </div>
+  </div>
+</form>

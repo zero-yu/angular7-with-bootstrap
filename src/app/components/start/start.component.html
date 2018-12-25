@@ -1,0 +1,4 @@
+<p>
+  <span *ngFor="let item of listStars;let i=index" class="glyphicon glyphicon-star" [class.glyphicon-star-empty]="item" (click) = "onClick(i)"></span>
+   {{stars|number:'1.0-1'}}星
+</p>

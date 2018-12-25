@@ -1,0 +1,48 @@
+<div class="thumbnail">
+  <img class="second-slide" src="http://placehold.it/820x230" alt="Second slide">
+  <div>
+    <h4 class="pull-right">{{product?.price}}元</h4>
+    <h4>{{product?.title}}</h4>
+    <p>{{product?.desc}}</p>
+  </div>
+  <div>
+    <p class="pull-right"></p>
+    <p>
+      <app-start startNumber="{{product?.rating}}"></app-start>
+    </p>
+  </div>
+</div>
+<div class="thumbnail">
+  <button class="btn btn-default btn-lg" [class.active]="isWatched" (click) = "onWatchProduct()">{{isWatched?'取消关注':'关注'}}</button>
+  <label for="">最新出价：{{currentPrice | number:'.2-2'}}元</label>
+</div>
+<div class="well">
+  <div>
+    <button class="btn btn-success" (click)="onComment()">我要评论</button>
+  </div>
+  <div [hidden]="isCommentHidden">
+    <div>
+      <app-start [(startNumber)]="starRating" [startLimit]="5" [readonly]="false"></app-start>
+    </div>
+    <div>
+      <textarea name="" id="" cols="30" rows="10" class="form-control" [(ngModel)]="comment"></textarea>
+    </div>
+    <div class="row">
+      <button class="btn btn-primary pull-right" (click)="onSubmitComment()">提交</button>
+    </div>
+  </div>
+  <div class="row" *ngFor="let item of product?.comments">
+    <hr>
+    <div>
+      <div class="col-md-12">
+        <app-start startNumber="{{item.rating}}"></app-start>
+        <span>{{item.user}}</span>
+        <span class="pull-right">{{item.timestamp}}</span>
+        <p></p>
+        <p>
+          {{item.content}}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
