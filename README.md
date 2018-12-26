@@ -12,6 +12,8 @@ B站连接 https://www.bilibili.com/video/av26814911
 
 4.程序具体如何安装使用，详见下面英文文档.
 
+5.欢迎一起交流学习,加油!
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
